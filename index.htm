@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is Dmitriy Dorofeyev's personal webpage. Learn more about his background, experiences, and contact information.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dmitriy Dorofeyev's Home Page</title>
+    <style type="text/css">
+        /* Tags and Elements defined below */
+        body {
+            width: 1000px;
+            margin: auto;
+            background-color: #FFF;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #036;
+            font-family: Georgia, serif;
+            font-weight: bold;
+            text-align: center;
+        }
+        h2 {
+            color: #036;
+            font-family: Georgia, serif;
+        }
+        p {
+            font-size: 14px;
+            font-family: Tahoma, Geneva, sans-serif;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        header {
+            background-image: url('images/20-mount-rainier-national-park.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 12px;
+            background-color: #CCF;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+        main {
+            margin: 20px;
+            color: #009;
+            background-color: #FFC;
+            padding: 10px;
+        }
+        footer {
+            background-color: yellow;
+            text-align: center;
+            padding: 10px;
+        }
+        footer img {
+            width: 30px;
+            margin: 0 10px;
+        }
+        
+        /* IDs defined below */
+        #wrapper {
+            border: 2px #009 solid;
+        }
+        #social {
+            color: #FF0;
+            background-color: #009;
+            padding: 10px;
+        }
+        #column1 {
+            background-color: #FFC;
+            width: 60%;
+            float: left;
+            padding: 10px;
+        }
+        #column2 {
+            background-color: #FCF;
+            width: 30%;
+            float: right;
+            padding: 10px;
+        }
+
+        /* Classes defined below */
+        .important {
+            color: #C00;
+        }
+        .highlight {
+            background-color: #FF9; /* yellow */
+        }
+        
+        /* Clearing floats */
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>Dmitriy Dorofeyev</h1>
+        <p>Welcome to my personal webpage!</p>
+    </header>
+
+    <nav>
+        <a href="index.htm">Home</a> | 
+        <a href="resume.htm">Resume</a> | 
+        <a href="https://ibm.com">IBM</a><br>
+        <a href="#Background">Background</a> | 
+        <a href="#Experience">Experience</a> | 
+        <a href="#Contact">Contact</a>
+    </nav>
+
+    <main class="clearfix">
+        <section id="column1">
+            <h2 id="Background">Background</h2>
+            <img src="images/hq720.jpg" alt="Home Office">
+            <p>
+                My name is Dmitriy Dorofeyev. I was born in a pretty big family. I have 9 siblings and we all love to play musical instruments. 
+                I personally play the <i>violoncello</i>. Growing up in a big family taught me a lot of things and I would like to share a few things I have learned. 
+                If you do not label the food you buy, it will be gone before you could blink! Another thing I learned is that since you have a lot of siblings, it helps solve problems more because you have people you can count on.
+            </p>
+        </section>
+
+        <section id="column2">
+            <h2 id="Experience">Experience</h2>
+            <p>
+                Growing up in a large family has also taught me the value of patience and cooperation. With so many different personalities and interests under one roof, 
+                it’s essential to find common ground and work together to make things run smoothly. This experience has not only helped me develop strong communication skills 
+                but has also instilled a deep appreciation for teamwork. Whether it’s coordinating a family meal, managing shared chores, or simply navigating daily life, 
+                the ability to collaborate effectively has been a crucial skill that I carry with me into all areas of my life.
+            </p>
+            <p class="important">
+                Thank You for reading till the end!
+            </p>
+            <p class="highlight">
+                Good Bye:)
+            </p>
+        </section>
+
+        <section>
+            <h2 id="Contact">Contact</h2>
+            <img src="images/download.png" alt="Contact Icons">
+            <p>If you'd like to get in touch, you can reach me via email or phone:</p>
+            <p>Email: <a href="mailto:dorofeyevdima@gmail.com">dorofeyevdima@gmail.com</a></p>
+            <p>Phone: <a href="tel:5034530518">(503) 453-0518</a></p>
+        </section>
+
+        <p><a href="#Top">Back to Top</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dmitriy Dorofeyev. All rights reserved.</p>
+        <p>Email: <a href="mailto:dorofeyevdima@gmail.com">dorofeyevdima@gmail.com</a> | Phone: <a href="tel:5034530518">(503) 453-0518</a></p>
+        <img src="images/download.png" alt="Contact Icons">
+    </footer>
+</div> <!-- /wrapper -->
+
+<div id="social">
+    Facebook | Twitter | YouTube ...
+</div> <!-- / social -->
+
+</body>
+</html>
