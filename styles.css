@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+#wrapper {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+header {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #009;
+}
+h1 {
+    color: #036;
+    font-family: Georgia, serif;
+}
+nav {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #CCF;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+main {
+    margin: 20px 0;
+    color: #333;
+}
+h2 {
+    color: #036;
+    font-family: Georgia, serif;
+    border-bottom: 1px solid #009;
+    padding-bottom: 5px;
+}
+ul, ol {
+    margin-left: 20px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #eee;
+    border-top: 1px solid #ccc;
+}
+#social {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f9f9f9;
+}
+img {
+    max-width: 100%; 
+    height: auto;    
+    display: block;  
+    margin: 0 auto;  
+}
+.reco-image {
+    width: 562px;  /* Set the width */
+    height: 316px; /* Set the height */
+    object-fit: cover; /* Maintain aspect ratio if necessary */
+}
+
