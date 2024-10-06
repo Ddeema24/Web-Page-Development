@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dmitriy Dorofeyev's Home Page</title>
     <style type="text/css">
-        /* Tags and Elements defined below */
+        /* Global Styles */
         body {
-            width: 1000px;
-            margin: auto;
+            margin: 0;
             background-color: #FFF;
             font-family: Arial, sans-serif;
         }
@@ -69,23 +68,28 @@
         /* IDs defined below */
         #wrapper {
             border: 2px #009 solid;
+            max-width: 1000px; /* Maximum width for larger screens */
+            margin: auto; /* Center the wrapper */
         }
         #social {
             color: #FF0;
             background-color: #009;
             padding: 10px;
         }
+        #column1, #column2 {
+            padding: 10px;
+        }
+
+        /* Column Styles */
         #column1 {
             background-color: #FFC;
             width: 60%;
             float: left;
-            padding: 10px;
         }
         #column2 {
             background-color: #FCF;
             width: 30%;
             float: right;
-            padding: 10px;
         }
 
         /* Classes defined below */
@@ -101,6 +105,21 @@
             content: "";
             display: table;
             clear: both;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            #column1, #column2 {
+                width: 100%; /* Stack columns vertically */
+                float: none; /* Remove float */
+            }
+            nav a {
+                display: block; /* Stack navigation links */
+                margin: 5px 0; /* Add margin between links */
+            }
+            header, footer, main {
+                padding: 20px; /* Adjust padding for smaller screens */
+            }
         }
     </style>
 </head>
@@ -125,7 +144,7 @@
     <main class="clearfix">
         <section id="column1">
             <h2 id="Background">Background</h2>
-            <img src="images/hq720.jpg" alt="Home Office">
+            <img src="hq720.jpg" alt="Home Office"> <!-- Updated image source -->
             <p>
                 My name is Dmitriy Dorofeyev. I was born in a pretty big family. I have 9 siblings and we all love to play musical instruments. 
                 I personally play the <i>violoncello</i>. Growing up in a big family taught me a lot of things and I would like to share a few things I have learned. 
@@ -151,7 +170,7 @@
 
         <section>
             <h2 id="Contact">Contact</h2>
-            <img src="images/download.png" alt="Contact Icons">
+            <img src="download.png" alt="Contact Icons"> <!-- Updated image source -->
             <p>If you'd like to get in touch, you can reach me via email or phone:</p>
             <p>Email: <a href="mailto:dorofeyevdima@gmail.com">dorofeyevdima@gmail.com</a></p>
             <p>Phone: <a href="tel:5034530518">(503) 453-0518</a></p>
@@ -163,7 +182,7 @@
     <footer>
         <p>&copy; 2024 Dmitriy Dorofeyev. All rights reserved.</p>
         <p>Email: <a href="mailto:dorofeyevdima@gmail.com">dorofeyevdima@gmail.com</a> | Phone: <a href="tel:5034530518">(503) 453-0518</a></p>
-        <img src="images/download.png" alt="Contact Icons">
+        <img src="download.png" alt="Contact Icons"> <!-- Updated image source -->
     </footer>
 </div> <!-- /wrapper -->
 
