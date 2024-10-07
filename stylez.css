@@ -1,0 +1,116 @@
+body {
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-image: url('images/newsletter_background.jpg');
+    padding: 40px 0; /* Adjusted padding for a more compact look */
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.5em; /* Adjusted size for better hierarchy */
+    margin-bottom: 0.2em;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: #005500;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover, .selected {
+    background-color: #005500;
+    color: #fff;
+}
+
+main {
+    padding: 20px 0;
+}
+
+h2 {
+    color: #005500;
+    font-size: 2em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+blockquote {
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    border-left: 5px solid #005500;
+    background-color: #f0f0f0;
+    font-style: italic;
+}
+
+.box {
+    border: 2px #005500 solid;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #eaf6e7;
+    border-radius: 5px;
+}
+
+.events-container {
+    margin: 20px 0;
+    padding: 10px;
+    overflow: hidden;
+    background: #eaf6e7;
+    border-radius: 5px;
+}
+
+.events-container ul {
+    padding-left: 20px; /* Added left padding for bullet points */
+    margin: 0;
+    list-style-type: disc; /* Ensures bullet points are displayed */
+}
+
+.events-container li {
+    background: none; /* Removed background color for a cleaner look */
+    padding: 5px 0; /* Adjusted padding for vertical spacing */
+}
+
+.infobar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #005500;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
