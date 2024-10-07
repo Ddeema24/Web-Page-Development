@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-image: url('images/newsletter_background.jpg');
+    background-image: url('Images/newsletter_background.jpg');
     padding: 40px 0; /* Adjusted padding for a more compact look */
     background-size: cover;
     text-align: center;
