@@ -46,6 +46,11 @@
             text-decoration: none;
             color: blue;
             font-weight: bold;
+            transition: color 0.3s, background-color 0.3s; /* Transition for hover effect */
+        }
+        nav a:hover {
+            color: white; /* Change text color on hover */
+            background-color: #009; /* Change background color on hover */
         }
         main {
             margin: 20px 0;
@@ -74,6 +79,18 @@
         /* Subscript, Superscript, and Small */
         p.subsup {
             margin-top: 20px;
+        }
+        
+        /* Hover effects for section headers */
+        h2:hover {
+            color: #CCF; /* Change header color on hover */
+            text-decoration: underline; /* Add underline effect */
+        }
+
+        /* Hover effects for paragraphs */
+        main p:hover {
+            background-color: #FF9; /* Highlight background color on hover */
+            transition: background-color 0.3s; /* Smooth transition */
         }
     </style>
 </head>
@@ -135,4 +152,3 @@
 
 </body>
 </html>
-
