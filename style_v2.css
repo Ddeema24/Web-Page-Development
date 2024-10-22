@@ -1,0 +1,151 @@
+/* General styles */
+body {
+    width: 1000px;
+    margin: auto;
+    background-color: #90EE90; /* Changed to light green */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #036;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: #036;
+    font-family: Georgia, serif;
+}
+
+p {
+    font-size: 14px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-image: url('Images/sand.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding: 12px;
+    background-color: #CCF;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: blue;
+}
+
+nav ul li a.selected {
+    background-color: gray;
+    color: white;
+}
+
+main {
+    margin: 20px;
+    color: #009;
+    background-color: #FFC;
+    padding: 10px;
+    border-radius: 8px; /* Add some rounding for aesthetics */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+table {
+    width: 100%; /* Make table take full width */
+    border-collapse: collapse; /* Collapse borders */
+}
+
+th {
+    background-color: #036; /* Header background color */
+    color: white; /* White text for contrast */
+    padding: 10px; /* Padding for table header */
+}
+
+td {
+    padding: 10px; /* Padding for table cells */
+    border-bottom: 1px solid #ccc; /* Bottom border for rows */
+}
+
+.required {
+    color: red; /* Style for required fields */
+    font-weight: bold; /* Bold for emphasis */
+}
+
+footer {
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+footer img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+/* IDs */
+#wrapper {
+    border: 2px #009 solid;
+}
+
+/* Responsive grid for portfolio images */
+#figureContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 600px) {
+    #figureContainer {
+        grid-template-columns: 1fr; /* Switch to single column for small screens */
+    }
+}
+
+/* Classes */
+.important {
+    color: #C00;
+}
+
+.highlight {
+    background-color: #FF9; /* yellow */
+}
+
+/* Clearing floats */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Box-sizing */
+* {
+    box-sizing: border-box;
+}
